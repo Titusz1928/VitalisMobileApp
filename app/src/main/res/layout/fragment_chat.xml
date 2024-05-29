@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/CHA_FrameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTextSecondary"
+    tools:context=".ui.Chat.ChatFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/flMainCardView"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+        <RelativeLayout
+            android:id="@+id/mcvRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/rlTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tlDividerRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bottom_border_on_white">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr1Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlSearchTableRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <EditText
+                        android:id="@+id/strEditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="4"
+                        android:background="@drawable/white_subtle_border"
+
+                        android:inputType="text"
+                        android:hint="@string/CHAstrEditText" />
+
+                    <ImageView
+                        android:id="@+id/strImageView"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_search" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlDividerRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_subtle_border">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr2Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/tlChatListTableRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryLight">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:id="@+id/clNestedScrollView"
+                        android:layout_width="match_parent"
+                        android:layout_height="560dp"
+                        android:layout_marginBottom="50dp"
+                        android:paddingBottom="40dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <LinearLayout
+                            android:id="@+id/cltrLinearLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"/>
+
+                    </androidx.core.widget.NestedScrollView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlDividerRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/white_subtle_border" >
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr3Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rlBottomCardView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="700dp">
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

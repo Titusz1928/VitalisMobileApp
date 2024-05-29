@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and accent colors -->
+    <color name="colorPrimary">#4CAF50</color> <!-- Green -->
+    <color name="colorPrimaryDark">#388E3C</color> <!-- Darker Green -->
+    <color name="colorAccent">#8BC34A</color> <!-- Light Green -->
+
+    <!-- Light Green Background -->
+    <color name="colorPrimaryLight">#E8F5E9</color> <!-- Light Green Background -->
+
+    <!-- Additional colors -->
+    <color name="colorSecondary">#1A400B</color> <!-- Amber -->
+    <color name="colorSecondaryDark">#FFA000</color> <!-- Dark Amber -->
+    <color name="colorSecondaryLight">#FFECB3</color> <!-- Light Amber -->
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#212121</color> <!-- Dark Gray -->
+    <color name="colorTextSecondary">#757575</color> <!-- Gray -->
+    <color name="colorTextLight">#FFFFFF</color> <!-- White -->
+
+    <!-- Background colors -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorBackgroundLight">#F5F5F5</color> <!-- Light Gray -->
+</resources>

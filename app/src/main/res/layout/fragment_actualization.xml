@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/ACT_ScrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".ui.Actualization.ActualizationFragment" >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/svCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/cvRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableLayout
+                android:id="@+id/cvTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableRow
+                    android:id="@+id/tlDividerRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr1Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlTensiuneArterialaRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/trTensiuneArterialaText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/white_subtle_border"
+
+                        android:textSize="24sp"
+                        android:text="@string/ACTtrTensiuneArterialaText" />
+
+                    <EditText
+                        android:id="@+id/trTensiuneArterialaEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_black_border"
+
+                        android:inputType="number"
+
+                        android:text="0"
+
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlDividerRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr2Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlTemperaturaCorporalaRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/trTemperaturaCorporalaText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/white_subtle_border"
+
+                        android:textSize="24sp"
+                        android:text="@string/ACTtrTemperaturaCorporalaText" />
+
+                    <EditText
+                        android:id="@+id/trTemperaturaCorporalaEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_black_border"
+
+                        android:inputType="number"
+                        android:text="0.0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlDividerRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr3Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlGreutateRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/trGreutateText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/white_subtle_border"
+
+                        android:textSize="24sp"
+                        android:text="@string/ACTtrGreutateText" />
+
+                    <EditText
+                        android:id="@+id/trGreutateEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_black_border"
+
+                        android:inputType="number"
+                        android:text="0.0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlDividerRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr4Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlGlicernieRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/trGlicernieText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/white_subtle_border"
+
+                        android:textSize="24sp"
+                        android:text="@string/ACTtrGlicernieText" />
+
+                    <EditText
+                        android:id="@+id/trGlicernieEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_black_border"
+
+                        android:inputType="number"
+                        android:text="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tlDividerRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dr5Card"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rvBottomCardView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="600dp"
+                app:cardBackgroundColor="@color/colorBackground">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/bcvConstraintLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/ACTbcvSaveButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorPrimaryLight"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:circularflow_radiusInDP="30dp"
+
+                        android:textSize="20sp"
+                        android:text="@string/ACTcvSaveButton" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

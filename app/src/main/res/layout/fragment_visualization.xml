@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/VIS_FrameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".ui.Visualization.VisualizationFragment">
+
+    <ScrollView
+        android:id="@+id/flScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/svCardView"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp">
+
+            <RelativeLayout
+                android:id="@+id/cvRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:id="@+id/rlMainTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:id="@+id/mtlDivider1TableRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bottom_border_on_white" >
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/d1trCardView"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_weight="1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/mtlDropDownTableRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/ddtrCardView"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimaryLight">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/cvConstraintLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/white_subtle_border">
+
+                                <Spinner
+                                    android:id="@+id/spinner"
+                                    android:layout_width="300dp"
+                                    android:layout_height="50dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/mtlDivider2TableRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/white_subtle_border">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/d2trCardView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/mtlVisualizerTableRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="700dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimaryLight">
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/mtlDivider3TableRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/white_subtle_border"
+                        android:layout_marginTop="20dp" >
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/d3trCardView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mcvBottomCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="650dp" >
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </ScrollView>
+</FrameLayout>

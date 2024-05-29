@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <!--
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.ip_mobileapp.ui.Login.LoginFragment"
+        android:label="@string/login_fragment_label"
+        tools:layout="@layout/fragment_login" />
+    <action
+        android:id="@+id/to_nav_registration"
+        app:destination="@id/nav_registration" />
+    <action
+        android:id="@+id/to_nav_reset_password"
+        app:destination="@id/nav_reset_password" />
+    <fragment
+        android:id="@+id/nav_registration"
+        android:name="com.example.ip_mobileapp.ui.Registration.RegistrationFragment"
+        android:label="@string/registration_fragement_label"
+        tools:layout="@layout/fragment_registration"/>
+    <fragment
+        android:id="@+id/nav_reset_password"
+        android:name="com.example.ip_mobileapp.ui.ResetPassword.ResetPassword1Fragment"
+        android:label="@string/reset_fragment_label"
+        tools:layout="@layout/fragment_reset_password1"/>-->
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ip_mobileapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <action
+        android:id="@+id/to_home"
+        app:destination="@+id/nav_home"/>
+
+    <action
+        android:id="@+id/to_recomandare"
+        app:destination="@+id/nav_recomandare"/>
+
+
+    <fragment
+        android:id="@+id/nav_fisa_medicala"
+        android:name="com.example.ip_mobileapp.ui.FisaMedicala.FisaMedicalaFragment"
+        android:label="@string/fisa_medicala_fragment_label"
+        tools:layout="@layout/fragment_fisa_medicala"/>
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="com.example.ip_mobileapp.ui.Sensors.SensorFragment"
+        android:label="@string/sensor_fragment_label"
+        tools:layout="@layout/fragment_sensor"/>
+    <action
+        android:id="@+id/to_nav_sensors"
+        app:destination="@+id/nav_sensors"/>
+    <fragment
+        android:id="@+id/nav_actualization"
+        android:name="com.example.ip_mobileapp.ui.Actualization.ActualizationFragment"
+        android:label="@string/actualization_fragment_label"
+        tools:layout="@layout/fragment_actualization"/>
+    <action
+        android:id="@+id/to_nav_actualization"
+        app:destination="@id/nav_actualization" />
+    <fragment
+        android:id="@+id/nav_visualization"
+        android:name="com.example.ip_mobileapp.ui.Visualization.VisualizationFragment"
+        android:label="@string/visualization_fragment_label"
+        tools:layout="@layout/fragment_visualization"/>
+    <action
+        android:id="@+id/to_nav_visualization"
+        app:destination="@id/nav_visualization" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.ip_mobileapp.ui.Chat.ChatFragment"
+        android:label="@string/chat_fragment_label"
+        tools:layout="@layout/fragment_chat"/>
+    <action
+        android:id="@+id/to_selected_chat"
+        app:destination="@+id/nav_selected_chat"/>
+
+    <fragment
+        android:id="@+id/nav_selected_chat"
+        android:name="com.example.ip_mobileapp.ui.SelectedChat.SelectedChatFragment"
+        android:label="@string/selected_chat_label"
+        tools:layout="@layout/fragment_selected_chat"/>
+
+    <fragment
+        android:id="@+id/nav_alarm"
+        android:name="com.example.ip_mobileapp.ui.Alarms.AlarmFragment"
+        android:label="@string/alarm_fragment_label"
+        tools:layout="@layout/fragment_alarm"/>
+
+    <fragment
+        android:id="@+id/action_settings"
+        android:name="com.example.ip_mobileapp.ui.Settings.SettingsFragment"
+        android:label="@string/SETtcvTitleText"
+        tools:layout="@layout/fragment_settings"/>
+    <action
+        android:id="@+id/to_settings"
+        app:destination="@+id/action_settings"/>
+
+    <fragment
+        android:id="@+id/nav_recomandare"
+        android:name="com.example.ip_mobileapp.ui.Recomandare.RecomandareFragment"
+        android:label="@string/recomandare_layout_label"
+        tools:layout="@layout/fragment_recomandare"/>
+
+    <fragment
+        android:id="@+id/nav_change_password1"
+        android:name="com.example.ip_mobileapp.ui.ResetPassword.ChangePasswordFragment"
+        android:label="@string/CPAlabel"
+        tools:layout="@layout/fragment_change_password1"/>
+    <action
+        android:id="@+id/to_change_password"
+        app:destination="@+id/nav_change_password1"/>
+
+    <fragment
+        android:id="@+id/nav_change_password2"
+        android:name="com.example.ip_mobileapp.ui.ResetPassword.ChangePassword2Fragment"
+        android:label="@string/CPAlabel"
+        tools:layout="@layout/fragment_change_password2"/>
+    <action
+        android:id="@+id/to_change_password2"
+        app:destination="@+id/nav_change_password2"/>
+
+    <fragment
+        android:id="@+id/nav_change_password3"
+        android:name="com.example.ip_mobileapp.ui.ResetPassword.ChangePassword3Fragment"
+        android:label="@string/CPAlabel"
+        tools:layout="@layout/fragment_change_password3"/>
+    <action
+        android:id="@+id/to_change_password3"
+        app:destination="@+id/nav_change_password3"/>
+
+
+</navigation>

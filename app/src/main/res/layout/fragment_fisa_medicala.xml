@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:visibility="visible">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/roundstyle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ScrollView
+        android:id="@+id/FMEscrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/view"
+        app:layout_constraintBottom_toBottomOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/svLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Layout pentru Date Personale -->
+            <LinearLayout
+                android:id="@+id/llLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/llTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FMEllTitleTextView"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp" />
+
+                <TableLayout
+                    android:id="@+id/llTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1">
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlNumeTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlNumeTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlNumeContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlNumeContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlPrenumeTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlPrenumeTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlPrenumeContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlPrenumeContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlCNPTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlCNPTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlCNPContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlCNPContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlVarstaTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlVarstaTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlVarstaContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlVarstaContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlEmailTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlEmailTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlEmailContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlEmailContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlTelefonTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlTelefonTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlTelefonContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlTelefonContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tAdresaTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlAdresaTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlAdresaContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlAdresaContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlProfesieTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlProfesieTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlProfesieContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlProfesieContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/tlLocDeMunTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEtlLocDeMunTitleText"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:background="@color/colorPrimaryLight" />
+                        <TextView
+                            android:id="@+id/tlLocDeMuneContentText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/FMEtlLocDeMunContentText"
+                            android:textSize="18sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <!-- Add more rows as needed -->
+
+                </TableLayout>
+            </LinearLayout>
+
+            <!-- Layout pentru Consultații -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FMEconsultatiTitle"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp" />
+
+                <TableLayout
+                    android:id="@+id/llConsultatiiTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+
+                    <!-- Header row -->
+                    <TableRow
+                        android:background="@color/colorPrimaryLight"
+                        android:padding="8dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEconsultatiiDataTitle"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEconsultatiiDiagnosticTitle"
+                            android:textSize="12sp"
+                            android:padding="8dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/FMEconsultatiiTratamentTitle"
+                            android:textSize="13sp"
+                            android:padding="8dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.1"
+                            android:text="@string/FMEconsultatiiRecomandareTitle"
+                            android:textSize="11sp"
+                            android:padding="7dp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <!-- Data rows -->
+
+                    <!-- Add more rows as needed -->
+
+                </TableLayout>
+            </LinearLayout>
+
+            <!-- Layout pentru Alergii -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FMEalergiiTitle"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp" />
+
+                <TableLayout
+                    android:id="@+id/llAlergiiTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+
+                    <!--                    &lt;!&ndash; Header row &ndash;&gt;-->
+                    <!--                    <TableRow-->
+                    <!--                        android:background="@color/colorPrimaryLight"-->
+                    <!--                        android:padding="8dp">-->
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="0dp"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_weight="1"-->
+                    <!--                            android:text="Allergy"-->
+                    <!--                            android:textSize="14sp"-->
+                    <!--                            android:padding="8dp"-->
+                    <!--                            android:textStyle="bold" />-->
+                    <!--                    </TableRow>-->
+
+                    <!-- Data rows -->
+
+                    <!-- Add more rows as needed -->
+
+                </TableLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,375 @@
+<resources>
+    <string name="app_name">IP_MobileApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Setări</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="background_image_description">Background Image</string>
+
+    //LOGIN
+    <string name="fragment_login_description">Login fragment</string>
+    <string name="login_fragment_label">Login</string>
+
+    //FRAGMENTS
+
+    //FISA MEDICALA
+    <string name="fisa_medicala_fragment_label">Fisa Medicala</string>
+    <string name="fisa_medicala_desciption">this is fisa medicala</string>
+    <string name="fisa_medicala_title">Fisa Medicala</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--ERRORS-->
+    <string name="ERROR">Eroare!</string>
+    <string name="BROWSER_ERROR">No application can handle this request. Please install a web browser!</string>
+    <string name="INCORRECT_DATA">Datele sunt incorecte!</string>
+    <string name="WELCOME">Bine ai venit!</string>
+    <string name="ALARM_TOAST">Situație de alarmă</string>
+    <string name="AFTER_REGISTRATION">Cont creat, email trimis!</string>
+    <string name="REGISTRATION_FAIL">CNP-ul sau nr de telefon deja exista</string>
+    <string name="PASSWORD_CHANGE">Parola a fost schimbată!</string>
+
+    <!-- Main Layout (login) -->
+    <string name="MAINllLogoImageView"> Logo Image </string>
+    <string name="MAINllArrowImageView"> Arrow Image </string>
+
+    <string name="MAINifcvTitleText"> Bine ai venit! </string>
+
+    <string name="MAINifcvLoginButton"> Conectare </string>
+    <string name="MAINtilPassword"> Parolă </string>
+    <string name="MAINtilEmail"> Nume de utilizator (CNP) </string>
+    <string name="MAINifcvForgotPasswordText"> Am uitat parola </string>
+    <string name="MAINifcvRegisterButton"> Registrare </string>
+    <string name="MAINifcvRememberCheckbox"> Ține-mă minte </string>
+    <string name="MAINifcvCBPasswordlImage"> Parolă corectă </string>
+    <string name="MAINifcvCBEmailImage"> CNP corect </string>
+    <string name="MAINllVersionTextView"> Version 0.1 </string>
+    <string name="MAINllInfoTextView"> Vitalis - 2024/05/28 </string>
+
+    <string name="MAINloginGreeting"> Bine ai venit! </string>
+
+    <!-- Registrare -->
+    <string name="registration_fragement_label"> Registrare </string>
+
+    <string name="REGtcvTitleText"> Registrare </string>
+    <string name="REGtcvBackText"> Înapoi </string>
+
+    <string name="REGtlAccountSectionText">Date cont</string>
+    <string name="REGtlPersonalSectionText">Date personale</string>
+
+    <string name="REGtilEmail"> Email </string>
+    <string name="REGtilPassword"> Parolă </string>
+    <string name="REGtilPasswordConfirm"> Confirmare parolă </string>
+    <string name="REGtlNumeContentHint"> Nume </string>
+    <string name="REGtlPrenumeContentHint"> Prenume </string>
+    <string name="REGtlAgeHint"> Vârstă </string>
+    <string name="REGtlPhoneHint"> Tel </string>
+
+    <string name="REGtlCNPHint"> CNP </string>
+
+    <string name="REGtlCountryHint"> Țară </string>
+    <string name="REGtlJudetHint"> Județ </string>
+    <string name="REGtlCityHint"> Oraș </string>
+    <string name="REGtlStreetHint"> Stradă </string>
+
+    <string name="REGtlProfHint"> Profesie </string>
+    <string name="REGtlLocMunHint"> Loc de muncă </string>
+
+    <string name="REGmessage"> "Înregistrare cu succes" </string>
+    <string name="REGerrorMessage"> "Eroare" </string>
+
+
+    <!-- Reset password Layout (specify email) -->
+    <string name="reset_fragment_label">Resetare parolă</string>
+
+    <string name="RPAicvTitleText"> Resetare parolă </string>
+    <string name="RPAifcvInformationText"> Te rog să introduci adresa de email asociată contului tău! </string>
+    <string name="RPAifcvEmailEdit"> Email </string>
+    <string name="RPAifcvBackButton"> Înapoi </string>
+    <string name="RPAifcvConfirmButton"> Confirmare </string>
+
+    <!-- Reset password 2 Layout (code) -->
+    <string name="RPA2tcvTitleText"> Resetare parolă </string>
+    <string name="RPA2ifcvInformationText"> Am trimis un cod pe adresa ta de email! Introdu-l pentru a continua. </string>
+    <string name="RPA2ifcvCodEdit"> Cod </string>
+    <string name="RPA2ifcvBackButton"> Înapoi </string>
+    <string name="RPA2ifcvConfirmButton"> Confirmare </string>
+
+    <!-- Reset password 3 Layout (confirm) -->
+    <string name="RPA3tcvTitleText"> Resetare parolă </string>
+    <string name="RPA3tilConfirm"> Confirmare parolă </string>
+    <string name="RPA3tilNew"> Parolă nouă </string>
+    <string name="RPA3ifcvConfirmButton"> Resetare </string>
+    <string name="RPA3ifcvBackButton"> Înapoi </string>
+
+
+    <!-- Home -->
+    <!-- Home Layout-->
+    <string name="HOMicvTitleTextView"> Despre noi </string>
+    <string name="HOMicvDescriptionTextView">
+    La Vitalis, revoluționăm monitorizarea sănătății prin device-uri wearable de ultimă generație.
+    Oferim soluții de monitorizare remote, asigurând accesul clienților noștri la informații esențiale despre starea lor de sănătate în timp real.\n\n
+
+    Misiunea Noastră\n\n
+
+    Ne propunem să îmbunătățim calitatea vieții prin tehnologie avansată, oferind dispozitive de încredere care sprijină un stil de viață sănătos și echilibrat.\n\n
+
+    Ce Oferim\n\n
+
+    Monitorizare Continuă:\n
+    - Dispozitivele noastre colectează date esențiale non-stop.\n
+    Analiză Avansată:\n
+    - Algoritmi sofisticați oferă recomandări personalizate.\n
+    Confort și Accesibilitate:\n
+    - Ușor de purtat și utilizat, pentru o experiență fără întreruperi.\n
+    Securitate:\n
+    - Conectivitate sigură și protecția datelor personale.
+</string>
+    <string name="HOMBrowserImageButton">Browser</string>
+    <string name="HOMYoutubeImageButton">Youtube</string>
+
+    <string name="HOMtcvLogoImageView">Logo Image</string>
+    <string name="HOMtcvInformationTextView">Informație adițională</string>
+    <string name="HOMtcvGreeetingTextView">Bun venit, %s!</string>
+
+    <string name="HOMttrTitleTextView">Doctorul meu</string>
+
+    <string name="HOMtextView_doctor_nameT"> Nume </string>
+    <string name="HOMtextView_doctor_nameC"> John Doe </string>
+    <string name="HOMtextView_doctor_telT"> Telefon </string>
+    <string name="HOMtextView_doctor_telC"> 0722123456 </string>
+    <string name="HOMtextView_doctor_emailT"> Email </string>
+    <string name="HOMtextView_doctor_emailC"> john.doe@example.com </string>
+
+    <string name="HOMrtrTitleText">Recomandări</string>
+    <string name="HOMDoctorInfoButtonImage">doctor info display button</string>
+
+    <string name="HOMr1cvTitleTextView">Gripă</string>
+    <string name="HOMr1cvDateTextView">11/04/2024</string>
+    <string name="HOMr2cvTitleTextView">Titlu</string>
+    <string name="HOMr2cvDateTextView">12/04/2024</string>
+    <string name="HOMr3cvTitleTextView">Titlu</string>
+    <string name="HOMr3cvDateTextView">13/04/2024</string>
+
+    <string name="HOMfmcvTitleText">Fișa medicală</string>
+    <string name="HOMfmcvImageViewDescription">fișa medicala icon</string>
+
+    <string name="HOMacvTitleText">Alarme</string>
+    <string name="HOMacvImageViewDescription">alarme icon inactive</string>
+    <string name="HOMacvImageViewDescription2">alarme icon active</string>
+
+    <!-- Recommandations Layout-->
+    <string name="RECirTitleText"> Gripă </string>
+    <string name="RECirDateText"> 11/04/2024 </string>
+    <string name="RECtcvTratamnentText"> Medicație antivirală </string>
+    <string name="RECsvDescriptionText"> repaus la pat </string>
+
+
+    <!-- Alarme Layout -->
+    <string name="alarm_fragment_label">Alarme</string>
+    <string name="alarm_fragment_title">Alarme</string>
+    <string name="ALAcvTopText"> Alarme </string>
+
+    <string name="ALAtrGazText"> Gaz </string>
+    <string name="ALAtrCresTempText"> Creșterea temperaturii </string>
+    <string name="ALAtrParFizioText"> Parametrii fiziologici </string>
+    <string name="ALAtrAnomaliiText"> Anomalii </string>
+    <string name="ALAtrSistemCazutText"> Sistem căzut </string>
+
+    <!-- Sensors -->
+
+    <!--Sensors Layout-->
+    <string name="sensor_fragment_label"> Senzori </string>
+    <string name="sensor_fragmetn_title">Senzori</string>
+
+    <string name="SENtcvTitleText">Datele mele</string>
+
+    <string name="SENtarInfoTextView">Tensiune arterială</string>
+    <string name="SENtarContentTextView"> 0 </string>
+    <string name="SENpInfoTextView">Puls</string>
+    <string name="SENpContentTextView"> 0 </string>
+    <string name="SENtcInfoTextView">T. corporală</string>
+    <string name="SENtcContentTextView"> 0.0 </string>
+    <string name="SENgrInfoTextView">Greutate</string>
+    <string name="SENgrContentTextView"> 0.0 </string>
+    <string name="SENglInfoTextView">Glicernie</string>
+    <string name="SENglContentTextView"> 0 </string>
+    <string name="SENluInfoTextView">Lumina</string>
+    <string name="SENluContentTextView"> NU </string>
+    <string name="SENtambInfoTextView">T. ambientală</string>
+    <string name="SENtambContentTextView"> 0.0 </string>
+    <string name="SENpgInfoTextView">Prezență gaz</string>
+    <string name="SENpgContentTextView"> NU </string>
+    <string name="SENumidInfoTextView">Umiditate</string>
+    <string name="SENumidContentTextView"> NU </string>
+    <string name="SENSENxInfoTextView">Proximitate</string>
+    <string name="SENSENxContentTextView"> NU </string>
+
+    <string name="SENacvTitleText">Actualizare date</string>
+    <string name="SENacvImageView">Actualizare icon</string>
+
+    <string name="SENvcvTitleText">Vizualizare date</string>
+    <string name="SENvcvImageView">Vizualizare icon</string>
+
+
+    <!-- Actualizare Layout -->
+    <string name="actualization_fragment_label"> Actualizare date </string>
+    <string name="ACTtopRowText">  Actualizare date </string>
+
+    <string name="ACTtrTensiuneArterialaText">  Tensiune arteriala </string>
+    <string name="ACTtrTemperaturaCorporalaText"> Temperatura corporala </string>
+    <string name="ACTtrGreutateText"> Greutate </string>
+    <string name="ACTtrGlicernieText"> Glicernie </string>
+
+    <string name="ACTcvSaveButton"> Salvează </string>
+
+    <!--Visualization Layout-->
+    <string name="visualization_fragment_label"> Vizualizare date </string>
+    <string name="VISttrTitleText">Vizualizare date</string>
+
+    <string name="VISbcvBackButton">back arrow</string>
+
+    <!-- Chat -->
+    <!-- Chat list-->
+    <string name="chat_fragment_label"> Chat </string>
+    <string name="chat_fragment_title"> Chat </string>
+    <string name="CHAttrTitleTextView">Chat</string>
+    <string name="CHAstrEditText">Caută</string>
+
+    <string name="CHAc1cvTextView">Mesaje sistem</string>
+    <string name="CHAc2cvTextView">John Doe</string>
+    <string name="CHAc3cvTextView">John Doe</string>
+    <string name="CHAc4cvTextView">John Doe</string>
+    <string name="CHAc5cvTextView">John Doe</string>
+
+    <!-- Selected chat -->
+    <string name="selected_chat_label">selected chat</string>
+    <string name="SCHm1cvContinutTextView">.................................................................................................................</string>
+    <string name="SCHm1cvTimeTextView">23:10</string>
+
+    <string name="SCHm2cvContinutTextView">.</string>
+    <string name="SCHm2cvTimeTextView">23:13</string>
+
+    <string name="SCHm3cvContinutTextView">........................................................</string>
+    <string name="SCHm3cvTimeTextView">23:15</string>
+
+    <string name="SCHm4cvContinutTextView">....................</string>
+    <string name="SCHm4cvTimeTextView">23:17</string>
+
+    <string name="SCHm5cvContinutTextView">Nested Scroll test</string>
+    <string name="SCHm5cvTimeTextView">23:17</string>
+
+    <string name="SCHmscvMessageEditText">Mesaj</string>
+
+    <string name="SCHbcvBackButton">back arrow</string>
+
+    <!--Settings-->
+
+    <string name="SETtcvTitleText">Setări</string>
+
+    <string name="SETetStrada">Str. Principală</string>
+    <string name="SETetCity">Orașul Mare</string>
+    <string name="SETetJudet">Județul Mic</string>
+    <string name="SETetTelefon">0722123456</string>
+    <string name="SETetPrenume">John</string>
+    <string name="SETetNume">Doe</string>
+
+    <string name="SETimageView_nume">edit nume</string>
+    <string name="SETimageView_prenume">edit prenume</string>
+    <string name="SETimageView_telefon">edit telefon</string>
+    <string name="SETimageView_judet">edit judet</string>
+    <string name="SETimageView_oras">edit oras</string>
+    <string name="SETimageView_strada">edit strada</string>
+
+    <string name="SETrImageView">romanian</string>
+    <string name="SETeImageView">english</string>
+    <string name="SEThImageView">hungarian</string>
+
+    <string name="SETresetpasswordButton">Schimbare parolă</string>
+    <string name="SETlogoutButton">Deconectare</string>
+
+
+    <!-- Change Information Layout -->
+    <string name="CINtrTopText"> Actualizare date </string>
+
+    <string name="CINtrTitleCurrentText"> Numele curent: </string>
+    <string name="CINtrContentCurrentText"> Doe </string>
+    <string name="CINtrTitleNewText"> Numele nouă: </string>
+    <string name="CINbcvSaveButton"> Salvează </string>
+
+    <!-- Change Password Layout-->
+    <string name="CPAtcvTitleText"> Schimbare Parolă </string>
+    <string name="CPAlabel">Schimbare parolă</string>
+    <string name="CPAtilOld"> Parolă veche </string>
+    <string name="CPAtilNew"> Parolă nouă </string>
+    <string name="CPAtilConfirm"> Confirmare parolă </string>
+
+    <string name="CPAifcvConfirmButton"> Confirmare </string>
+    <string name="CPAifcvBackButton"> Înapoi </string>
+
+    <!-- URLs-->
+    <!--server address-->
+    <string name="CLOUD_SERVER">dummy ip</string>
+
+    <!--endpoints-->
+    <string name="GET_CHAT_HISTORY">/get_chat_history</string>
+    <string name="SEARCH_USER"> /search_user </string>
+    <string name="GET_CHAT"> /get_chat </string>
+    <string name="SIGN_UP"> /signup </string>
+    <string name="ADD_USER"> /add_user </string>
+    <string name="GET_MEDICAL_RECORD"> /get_medical_record </string>
+    <string name="MEDICAL_RECORD">/medicalrecord</string>
+    <string name="RESET_PASSWORD_EMAIL">/reset_password_email</string>
+    <string name="CHECK_CONFIRMATION_CODE">/check_confirmation_code</string>
+    <string name="CHANGE_PASSWORD">/change_password</string>
+    <string name="GET_ALARMS">/get_alarms</string>
+    <string name="SAVE_SENSORS_DATA">/save_sensors_data</string>
+    <string name="GET_SENSORS_SETTINGS">/get_sensors_settings</string>
+    <string name="REPORT_ALARM">/report_alarm</string>
+
+    <string name="URLregistration">/registration</string>
+    <string name="LOGIN">/login</string>
+    <string name="URLchats"> /chats </string>
+    <string name="URLmessages"> /mesaje </string>
+    <string name="URLsend"> /send </string>
+
+    <!--FISA MEDICALA-->
+    <string name="FMEllTitleTextView">Date Personale</string>
+    <string name="FMEtlNumeTitleText">Nume</string>
+    <string name="FMEtlNumeContentText">%</string>
+    <string name="FMEtlPrenumeTitleText">Prenume</string>
+    <string name="FMEtlPrenumeContentText">%</string>
+    <string name="FMEtlCNPTitleText">CNP</string>
+    <string name="FMEtlCNPContentText">%</string>
+    <string name="FMEtlVarstaTitleText">Vârstă</string>
+    <string name="FMEtlVarstaContentText">%</string>
+    <string name="FMEtlEmailTitleText">E-mail</string>
+    <string name="FMEtlEmailContentText">%</string>
+    <string name="FMEtlTelefonTitleText">Telefon</string>
+    <string name="FMEtlTelefonContentText">%</string>
+    <string name="FMEtlAdresaTitleText">Adresa</string>
+    <string name="FMEtlAdresaContentText">%</string>
+    <string name="FMEtlProfesieTitleText">Profesie</string>
+    <string name="FMEtlProfesieContentText">%</string>
+    <string name="FMEtlLocDeMunTitleText">Loc de muncă</string>
+    <string name="FMEtlLocDeMunContentText">%</string>
+    <string name="CPA3ifcvConfirmButton">CONFIRMARE</string>
+    <string name="FMEconsultatiTitle">Consultații</string>
+    <string name="FMEconsultatiiDataTitle">Data</string>
+    <string name="FMEconsultatiiDiagnosticTitle">Diagnostic</string>
+    <string name="FMEconsultatiiTratamentTitle">Tratament</string>
+    <string name="FMEconsultatiiRecomandareTitle">Recomandare</string>
+    <string name="FMEalergiiTitle">Allergii</string>
+
+    <string name="recomandare_layout_label">Consultare</string>
+
+
+</resources>
