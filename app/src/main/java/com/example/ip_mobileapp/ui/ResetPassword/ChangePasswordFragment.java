@@ -27,6 +27,7 @@ import com.example.ip_mobileapp.databinding.FragmentChatBinding;
 import com.example.ip_mobileapp.ui.Login.LoginFragment;
 import com.example.ip_mobileapp.ui.Sensors.SensorFragment;
 import com.example.ip_mobileapp.ui.Settings.SettingsFragment;
+import com.example.ip_mobileapp.ui.home.HomeFragment;
 
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
@@ -86,9 +87,8 @@ public class ChangePasswordFragment extends Fragment {
                                 Log.d("MyTag","email sent ");
                                 Bundle bundle = new Bundle();
                                 bundle.putString("email", emailString);
-                                ResetPassword2Fragment fragment = new ResetPassword2Fragment();
-                                fragment.setArguments(bundle);
-                                ((LoginActivity) getActivity()).switchFragment(fragment);
+                                NavHostFragment.findNavController(ChangePasswordFragment.this)
+                                        .navigate(R.id.to_change_password2, bundle);
                             }else{
                                 Log.d("MyTag","error ");
                                 Toast.makeText(getActivity(), getString(R.string.ERROR) , Toast.LENGTH_LONG).show();
